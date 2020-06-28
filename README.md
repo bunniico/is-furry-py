@@ -14,7 +14,7 @@ const isFurry = require('is-furry')
 ```
 
 ## Options
-All options are optional, the values shown in this example are the defaults
+The values shown in this example are the defaults. Custom options will overwrite the defaults.
 ```js
 isFurry('Is this message furry owo', {
     fold: false,
@@ -62,10 +62,10 @@ isFurry('message owo', isFurryOptions) // => 'message **owo**'
 ```
 
 ## License
-The project is licensed under [MIT](./LICENSE.md)
+The project is licensed under [MIT](https://gitlab.com/Wait_What_/is-furry/-/blob/master/LICENSE.md)
 
 ## Contributing
-If you would like to contribute to this package, please read the [contributing guide](./CONTRIBUTING.md).
+If you would like to contribute to this package, please read the [contributing guide](https://gitlab.com/Wait_What_/is-furry/-/blob/master/CONTRIBUTING.md).
 
 ## Support
 Add me on Discord `Wait What#4975` or [join my Discord server](https://discord.gg/N8Fqcuk)
