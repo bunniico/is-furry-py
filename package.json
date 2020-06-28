@@ -1,8 +1,8 @@
 {
   "name": "is-furry",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Checks if a string has \"owo\" or \"uwu\" in it. Multiple strictness settings from \"owo\" to \"0,w u\"",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "wait_what_",
   "license": "MIT",
   "private": false,
