@@ -10,7 +10,7 @@ Checks if a string has "owo" or "uwu" in it (or replaces the matches). Various o
 ```js
 import isFurry from 'is-furry'
 // Or using CommonJS
-const isFurry = require('is-furry')
+const { default: isFurry } = require('is-furry')
 ```
 
 ## Options
