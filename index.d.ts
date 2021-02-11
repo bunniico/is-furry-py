@@ -18,14 +18,13 @@ declare module 'is-furry' {
 
   export type isFurryOptions = isFurryOptionsBoolReturn | isFurryOptionsNumReturn | isFurryOptionsStringReturn | isFurryOptionsArrayReturn;
 
-  type isFurryReturnType<T> = T extends isFurryOptionsBoolReturn
-    ? boolean
+  type isFurryReturnType<T> = T extends isFurryOptionsArrayReturn
+    ? string[]
     : T extends isFurryOptionsNumReturn
     ? number
     : T extends isFurryOptionsStringReturn
     ? string
-    : string[];
-
+    : boolean;
 
   export default function<T extends isFurryMinOptions>(string: string, options?: T): isFurryReturnType<T>;
 }
