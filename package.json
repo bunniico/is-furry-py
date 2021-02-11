@@ -1,6 +1,6 @@
 {
   "name": "is-furry",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Checks if a string has \"owo\" or \"uwu\" in it. Multiple strictness settings from \"owo\" to \"0,w u\"",
   "main": "dist/index.js",
   "types": "index.d.ts",
