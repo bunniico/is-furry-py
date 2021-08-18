@@ -62,12 +62,12 @@ isFurry('message owo', isFurryOptions) // => 'message **owo**'
 ```
 
 ## License
-The project is licensed under [MIT](https://gitlab.com/Wait_What_/is-furry/-/blob/master/LICENSE.md)
+The project is licensed under [MIT](https://github.com/wait-what/is-furry/-/blob/master/LICENSE)
 
 ## Contributing
-If you would like to contribute to this package, please read the [contributing guide](https://gitlab.com/Wait_What_/is-furry/-/blob/master/CONTRIBUTING.md).
+If you would like to contribute to this package, please read the [contributing guide](https://github.com/wait-what/is-furry/blob/master/CONTRIBUTING.md).
 
-Thanks to [jakobkg](https://gitlab.com/jakobkg) for [improving the typings](https://gitlab.com/Wait_What_/is-furry/-/merge_requests/1)!
+Thanks to [jakobkg](https://github.com/jakobkg) for improving the typings!
 
 ## Support
-Add me on Discord `Wait What#4975` or [join my Discord server](https://discord.gg/N8Fqcuk)
+Add me on Discord `Wait What#497(five)`
