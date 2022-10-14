@@ -1,5 +1,5 @@
 # is-furry-py
-Checks if a string has "owo" or "uwu" in it (or replaces the matches).
+Returns True if a string contains a variation of "OwO"
 
 
 ## Setup
