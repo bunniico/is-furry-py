@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "is-furry-py"
+version = "1.0.0"
+authors = [
+    { name="EllieR", email="fellhawkstudios@gmail.com"}
+]
+description= "Returns True if a string contains a variation of 'OwO'"
+readme = "README.md"
+requires-python = ">3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bunniico/is-furry-py"
+"Bug Tracker" = "https://github.com/wait-what/is-furry/issues"
+"Blog" = "https://hawkuarine.wordpress.com/"
