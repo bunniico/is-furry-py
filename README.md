@@ -1,7 +1,6 @@
 # is-furry-py
 Checks if a string has "owo" or "uwu" in it (or replaces the matches).
 
-is-furry-py does not currently support strictness options available in is-furry.
 
 ## Setup
 - Install the module
