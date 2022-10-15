@@ -8,7 +8,10 @@ tests: list = \
         ["hello owo uwu", True],
         ["hello nowo", True],
         ["hello nowo", False, True],
-        ["hello owo", True]
+        ["hello owo", True],
+        ["Hello OwO", True],
+        ["^w^", False, True],
+        ["OwO~ x3", True],
     ]
 
 for test in tests:
@@ -24,3 +27,4 @@ for test in tests:
         exit(1)
     else:
         print(f"Test passed: {test[0]}")
+

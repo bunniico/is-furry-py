@@ -5,12 +5,12 @@ expressions = {
         {
             r"\b(owo|uwu)\b",
             r"\b[oо0u🇴🇺]+[w🇼]+[oо0u🇴🇺]+\b",
-            r"\b[oо0u🇴🇺]+[\s.,*_-`\\]*[w🇼]+[\s,.*_-`\\]*[oо0u🇴🇺]"
+            r"\b[oо0>u🇴🇺^]+[\s.,*_-`\\]*[w3🇼]+[\s,.*_-`\\]*[oо0^<u🇴🇺]"
         },
     'without_boundaries':
         {
             r"(owo|uwu)",
-            r"\b[oо0u🇴🇺]+[\s.,*_-`\\]*[w🇼]+[\s,.*_-`\\]*[oо0u🇴🇺]"
+            r"[oо0>u🇴🇺^]+[\s.,*_-`\\]*[w3🇼]+[\s,.*_-`\\]*[oо0^<u🇴🇺]"
         }
 }
 
@@ -39,7 +39,7 @@ def evaluate(message: str, check_word_boundaries: bool = False) -> bool:
                 return True
     else:
         for expression in expressions["without_boundaries"]:
-            result = re.search(expression, message)
+            result = re.search(expression, message, re.IGNORECASE)
             if result is not None:
                 return True
     return False
