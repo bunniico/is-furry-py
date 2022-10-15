@@ -4,7 +4,7 @@ Returns True if a string contains a variation of "OwO"
 
 ## Setup
 - Install the module
-    > git clone https://github.com/bunniico/is-furry-py.git
+    > pip install is-furry-py
 - Use it in your code
 
 ```py
